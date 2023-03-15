@@ -6,8 +6,8 @@ export default function Layout({ children }) {
     <Box sx={{
         height: '100vh',
         width: '100vw',
-        overflow: 'hidden',
-        bgcolor: 'background.paper'
+        overflow: 'auto',
+        background: '#fff'
     }}>
         {children}
     </Box> 
